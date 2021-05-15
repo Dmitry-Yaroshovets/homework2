@@ -117,6 +117,149 @@
 
 /*header end*/
 
+/* index.html*/
+/*heroy start*/
+.heroy {
+  height: 600px;
+  background: #2f303a;
+}
+.heroy-title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 200px;
+}
+.order-service {
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*heroy end*/
+
+/*advantage start*/
+.advantage-list {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-right: 215px;
+  padding-left: 215px;
+  padding-top: 93px;
+}
+.advantage-item {
+  margin-right: 30px;
+}
+
+.advantage-head {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  font-weight: bold;
+}
+.advantage-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  width: 270px;
+}
+/*advantage end*/
+
+/*work start*/
+.work-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 215px;
+  padding-top: 50px;
+  padding-right: 215px;
+  margin-right: 30px;
+  padding-bottom: 94px;
+}
+/*work start*/
+
+/*team start*/
+
+.team-item {
+  background: white;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-top: 94px;
+}
+.team-list {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 215px;
+  padding-top: 50px;
+  padding-right: 215px;
+  padding-bottom: 94px;
+  margin-right: 30px;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.team-profession {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.team {
+  background: #f5f4fa;
+}
+/*team end*/
+/*index html end*/
+
+/*portfolio start*/
 /*main start*/
 .buttons {
   display: flex;
@@ -163,12 +306,9 @@
 .list-pic-one {
   list-style-type: none;
   background: #ffffff;
-  border: 1px solid #685f5f;
-  box-sizing: border-box;
-  margin-left: 0px;
-  margin-right: 30px;
 }
 /*main end*/
+/*portfolio end*/
 
 /*footer start*/
 .footer {
